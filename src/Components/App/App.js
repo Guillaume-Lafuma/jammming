@@ -1,4 +1,9 @@
 import logo from './logo.svg';
+import SearchBar from '../SearchBar/SearchBar';
+import Tracks from '../Tracks/Tracks';
+import Playlist from '../Playlist/Playlist';
+import TrackList from '../TrackList/TrackList';
+import SearchResults from '../SearchResults/SearchResults';
 import './App.css';
 
 function App() {
@@ -18,6 +23,16 @@ function App() {
           Learn React
         </a>
       </header>
+      <body>
+        <SearchBar />
+
+        <SearchResults />
+
+        <TrackList />
+        <Tracks />
+
+        <Playlist />
+      </body>
     </div>
   );
 }
